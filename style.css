@@ -1,0 +1,16 @@
+
+ body{
+    background: #afadad;
+ }
+ 
+
+body::before{
+    content:none;
+    position: absolute;
+    height:50%;
+    width: 20%;
+    left: 0;
+    top: 0;
+    background: #8b9c9e;
+    clip-path: polygon(0 0, 25%,0 75%, 0 100%, 0 50%);
+}
